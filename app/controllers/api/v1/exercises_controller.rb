@@ -1,7 +1,7 @@
 class Api::V1::ExercisesController < ApplicationController
-  def index
-  end
-
   def show
+    # exercise = Exericse.find(params[:id])
+    # authorize exercise
   end
 end
+ 
